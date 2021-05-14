@@ -1,11 +1,27 @@
 import React from 'react';
+import './fonts.css';
+import { ContentLayout, Section, Footer } from './styles';
+import Header from '@components/Header';
+import IntroSlider from '@components/IntroSlider';
+import History from '@components/History';
+import WarehouseLocation from '@components/WarehouseLocation';
+import CooperationCompany from '@components/CooperationCompany';
 
-import './fonts.css'
 function App() {
-    return (<div>
-        <p style={{ fontFamily: 'NotoSansKR' }}>hello modument</p>
-        <p style={{ fontFamily: 'NotoSansTC' }}>hello modument</p>
-        <p style={{ fontFamily: 'NanumGothic' }}>hello modument</p>
-    </div>)
+  return (
+    <div>
+      <Header />
+      <ContentLayout>
+        <IntroSlider />
+        <Section>picture1</Section>
+        <Section>video</Section>
+        <History />
+        <Section>picture2</Section>
+        <WarehouseLocation />
+        <CooperationCompany />
+      </ContentLayout>
+      <Footer>footer</Footer>
+    </div>
+  );
 }
-export default App
+export default App;
