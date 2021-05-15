@@ -97,6 +97,7 @@ const config = {
         changeOrigin: true,
       },
     },
+    hot: true,
   },
 };
 

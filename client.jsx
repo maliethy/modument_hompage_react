@@ -1,8 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 import App from './layouts/App';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 render(
-    <App />,
-    document.querySelector('#app'),
+  <Router>
+    <App />
+  </Router>,
+  document.querySelector('#app'),
 );

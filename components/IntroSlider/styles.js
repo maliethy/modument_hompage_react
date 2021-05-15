@@ -11,6 +11,7 @@ export const GlobalLayout = () => (
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100vh;
       }
 
       .slick-dots {
@@ -59,15 +60,15 @@ export const SlideHeader = styled.header`
 export const LogoWrapper = styled.div`
   position: absolute;
   left: 50%;
-  top: 30px;
+  top: 32px;
   transform: translateX(-50%);
   z-index: 99;
   & > img {
-    width: 180px;
+    width: 251px;
+    height: 46px;
   }
 `;
 export const SlickWrapper = styled.div`
-  background-color: #45b467;
   overflow: hidden;
 `;
 
@@ -86,7 +87,4 @@ export const Indicator = styled.div`
     font-size: 15px;
   }
 `;
-export const ImageWrapper = styled.div`
-  width: 100vw;
-  height: 100vh;
-`;
+export const ImageWrapper = styled.div``;
