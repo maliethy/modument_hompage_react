@@ -24,7 +24,7 @@ function IntroSlider() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     autoplaySpeed: 7000,
     cssEase: 'linear',
@@ -52,12 +52,12 @@ function IntroSlider() {
               <div>
                 <div
                   style={{
-                    height: '100vh',
+                    height: '873px',
                     display: 'flex',
                     justifyContent: 'center',
                   }}
                 >
-                  <div style={{ flexBasis: 'content', height: '100%', marginTop: 125 }}>
+                  <div style={{ flexBasis: 'content', height: '873px', marginTop: 125 }}>
                     <img style={{ width: 409, height: 392 }} src={slide1_text} alt={`modument_intro1_text`} />
                   </div>
                 </div>
@@ -73,7 +73,7 @@ function IntroSlider() {
             >
               <div
                 style={{
-                  height: '100vh',
+                  height: '873px',
                   flexDirection: 'column',
                   display: 'flex',
                   justifyContent: 'center',
@@ -89,7 +89,7 @@ function IntroSlider() {
           <div>
             <div
               style={{
-                height: '100vh',
+                height: '873px',
                 backgroundColor: '#45b467',
                 display: 'flex',
                 justifyContent: 'center',
@@ -102,7 +102,7 @@ function IntroSlider() {
           <div>
             <div
               style={{
-                height: '100vh',
+                height: '873px',
                 background: `#828282 no-repeat 50% 50%/cover`,
                 display: 'flex',
                 justifyContent: 'center',
@@ -116,7 +116,7 @@ function IntroSlider() {
           <div>
             <div
               style={{
-                height: '100vh',
+                height: '873px',
                 background: ` url(${slide5_pc}) no-repeat 50% 100%/cover `,
               }}
             />

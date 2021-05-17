@@ -11,23 +11,22 @@ export const GlobalLayout = () => (
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: auto;
       }
-
       .slick-dots {
         font-size: 0;
         border: none;
         display: flex !important;
         position: absolute;
         left: 50%;
-        bottom: 5px;
+        bottom: 405px;
         transform: translateX(-50%);
+        padding: 0;
       }
-
       .slick-dots li button {
-        width: 8px;
-        height: 8px;
-        margin: 4px;
+        width: 11px;
+        height: 11px;
+        margin: 5px 7px;
         border: none;
         border-radius: 100%;
         font-size: 0;
@@ -37,13 +36,11 @@ export const GlobalLayout = () => (
           margin: 5px 4px;
         }
       }
-
       .slick-dots li.slick-active button {
         background: white;
         width: 24px;
         border-radius: 30px;
       }
-
       button.slick-arrow.slick-prev,
       button.slick-arrow.slick-next {
         display: none !important;
@@ -63,6 +60,8 @@ export const LogoWrapper = styled.div`
   top: 32px;
   transform: translateX(-50%);
   z-index: 99;
+  text-align: center;
+  width: 100%;
   & > img {
     width: 251px;
     height: 46px;
@@ -74,7 +73,6 @@ export const SlickWrapper = styled.div`
 
 export const Indicator = styled.div`
   text-align: center;
-  padding-bottom: 20px;
   & > div {
     width: 75px;
     height: 30px;
@@ -87,4 +85,3 @@ export const Indicator = styled.div`
     font-size: 15px;
   }
 `;
-export const ImageWrapper = styled.div``;

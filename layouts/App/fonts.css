@@ -31,3 +31,10 @@ body {
   font-family: 'NotoSansTC';
   -webkit-font-smoothing: antialiased;
 }
+
+.title {
+  display: inline-block;
+  font-size: 3.214em;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
