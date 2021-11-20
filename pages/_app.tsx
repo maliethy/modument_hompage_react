@@ -3,7 +3,7 @@ import { AppProps, NextWebVitalsMetric } from 'next/app';
 
 import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
-import 'tailwindcss/tailwind.css';
+import '@styles/globals.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const [queryClient] = useState(() => new QueryClient());
